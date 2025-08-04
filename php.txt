@@ -1,0 +1,32 @@
+PHP - Can be elaborated as Hypertext Preprocessor.
+
+It is a server side scripiting langauge which is used to build dynamic and interactive webpages.
+
+it is also used  to create,alter and delete files in webserver, for database integrations,for Sesssion mangement and more
+
+So Why is PHP called a backend despite being in HTML file?
+
+PHP as the Elaboration tells us Hyptext Preprocessor, Where the PHP codes are executed on the server rather than on the browser.
+
+```
+<Doctype HTMl!>
+<html>
+<body>
+<?php 
+echo "hello world"
+?>
+</body>
+</html>
+```
+Here when we Observe the source code of this webpage, We cant find the php code but only the Hello world Text,
+
+This is becuase the php code is already executed in the server and only the HTML page is shown in the browser.
+
+Unlike javascript(A Frontned langauge),
+
+javascript which executes the code on the client site i.e the browser.
+
+Due to this PHP is associated with RCEs(Remote Code Execution) on the server.
+
+and javascript with Cross-site-scripiting.
+
