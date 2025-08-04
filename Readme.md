@@ -6,4 +6,4 @@ PHP executes on the Server Thats why its called `Hypertext Preprocessor`
 
 Whereas Javascript Executes on Browser.
 
-Now Differentiate between A RCE vs XSS
+**Now Differentiate between A RCE vs XSS**
