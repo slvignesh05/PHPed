@@ -1,0 +1,19 @@
+<Doctype html!>
+    <html>
+        <body>
+            <h1>PHPed</h1>
+            <p>Welcome to PHPed!</p>
+            <p>Curent Date and Time:
+                <?php echo date('Y-m-d H:i:s');
+                ?>
+            </p>
+            <p> Current PHP version:
+                <?php echo phpversion();
+                ?>
+                </p>
+            <?php 
+            echo "Hello World";
+            ?>
+        </body>
+    </html>
+    
