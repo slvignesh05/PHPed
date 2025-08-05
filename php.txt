@@ -30,3 +30,17 @@ Due to this PHP is associated with RCEs(Remote Code Execution) on the server.
 
 and javascript with Cross-site-scripiting.
 
+2. PHP is not Case-Senstive (keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive)
+
+<!Doctype html>
+<html>
+<body>
+<?php
+EchO "hello world";
+?>
+</body>
+</html>
+
+Does not raise a Sytnax error But variables names in PHP is case sensitive
+
+3. sdf

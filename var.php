@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PHP Variable Example</title>
+    <style>
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:aquamarine;
+            color:darkblue
+        }
+        h1 {
+            text-align: center;
+            font-size: 2mm;
+            color: darkred;
+        }
+    </style>
+    <body>
+        <h1>PHP Variable Example</h1>
+        <?php
+        $greeting ="Hello World";
+        echo $greeting;
+        ?>
+        <p> This is a simple PHP script which is used to demonstrate variables in PHP.</p>
+        <p>Variables in PHP start with a dollar sign ($) followed by the variable name.</p>
+        <p>Variable Name in PHP are Case-sensitive</p>
+        <P>To know more visit <a href="https://github.com/slvignesh05/PHPed">PHPed</a></P>
+    </body>
+    </head>
+</html>
